@@ -11,12 +11,6 @@ const tcc_versions = {
     }
 }
 
-const lua_versions = {
-    LUA51: {
-        url: "https://github.com/lua/lua/archive/refs/tags/v5.1.tar.gz"
-    }
-}
-
 export function installer() {
     return "ola mundo!"
 }

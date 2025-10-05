@@ -15,5 +15,9 @@ inputs:
     default: '.lua'
 
 runs:
-  using: 'node24'
-  main: 'src/action.js'
+  using: 'composite'
+  steps:
+    - run: npm install
+      shell: bash
+    - run: node ${{ github.action_path }}/src/action.js
+      shell: bash
