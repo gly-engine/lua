@@ -15,9 +15,5 @@ inputs:
     default: '.lua'
 
 runs:
-  using: 'composite'
-  steps:
-    - run: npm install
-      shell: bash
-    - run: node ${{ github.action_path }}/src/action.js
-      shell: bash
+  using: 'node20'
+  main: 'run.js'

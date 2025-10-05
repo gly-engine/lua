@@ -2,6 +2,8 @@
     "name": "@gamely/lua",
     "version": "0.0.1",
     "description": "Build and install Lua",
+    "main": "src/action.js",
+    "type": "module",
     "author": "RodrigoDornelles",
     "license": "Apache-2.0",
     "repository": "https://github.com/gly-engine/lua",
