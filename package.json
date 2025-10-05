@@ -1,0 +1,13 @@
+{
+    "name": "@gamely/lua",
+    "version": "0.0.1",
+    "description": "Build and install Lua",
+    "author": "RodrigoDornelles",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/gly-engine/lua",
+    "funding": "https://github.com/sponsors/RodrigoDornelles",
+    "bugs": "https://github.com/gly-engine/lua/issues",
+    "dependencies": {
+        "@actions/core": "^1.11.1"
+    }
+}
